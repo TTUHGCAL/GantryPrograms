@@ -1,0 +1,316 @@
+<HTML>
+<HEAD>
+<TITLE>PickPlace.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="PickPlace.vi"></A><H2>PickPlace.vi</H2>
+<P></P>
+<P><IMG SRC="PickPlacec.png" ALT="PickPlace.vi"></P>
+<P><IMG SRC="PickPlacep.png" ALT="PickPlace.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Pick or Drop</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Tool or Plate</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdotnetrefn.png" ALT="cdotnetrefn"></P>
+</TD>
+<TD>
+<B>controller</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P><B>error in</B> can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P><B>error in</B> can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>sensor on?</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idotnetrefn.png" ALT="idotnetrefn"></P>
+</TD>
+<TD>
+<B>controller out</B> </TD>
+</TR>
+</Table>
+<P><IMG SRC="PickPlaced.png" ALT="PickPlace.vi"></P>
+<P><IMG SRC="PickPlaced1.png" ALT="PickPlace.vi"></P>
+<P><IMG SRC="PickPlaced2.png" ALT="PickPlace.vi"></P>
+<P><IMG SRC="PickPlaced3.png" ALT="PickPlace.vi"></P>
+<P><IMG SRC="PickPlaced4.png" ALT="PickPlace.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Create_Virtual_Channeli.png" ALT="DAQmx Create Virtual Channel.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Create Virtual Channel.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\create\channels.llb\DAQmx Create Virtual Channel.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Create_Channel_(DO-Digital_Output)i.png" ALT="DAQmx Create Channel (DO-Digital Output).vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Create Channel (DO-Digital Output).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\create\channels.llb\DAQmx Create Channel (DO-Digital Output).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Stop_Taski.png" ALT="DAQmx Stop Task.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Stop Task.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\configure\task.llb\DAQmx Stop Task.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Clear_Taski.png" ALT="DAQmx Clear Task.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Clear Task.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\configure\task.llb\DAQmx Clear Task.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Fill_In_Error_Infoi.png" ALT="DAQmx Fill In Error Info.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Fill In Error Info.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\miscellaneous.llb\DAQmx Fill In Error Info.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Start_Taski.png" ALT="DAQmx Start Task.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Start Task.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\configure\task.llb\DAQmx Start Task.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Create_Channel_(DI-Digital_Input)i.png" ALT="DAQmx Create Channel (DI-Digital Input).vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Create Channel (DI-Digital Input).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\create\channels.llb\DAQmx Create Channel (DI-Digital Input).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Clear_Errorsi.png" ALT="Clear Errors.vi"></P>
+</TD>
+<TD>
+<B><P>Clear Errors.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Clear Errors.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ExecuteCommandi.png" ALT="ExecuteCommand.vi"></P>
+</TD>
+<TD>
+<B><P>ExecuteCommand.vi</P>
+</B><P>C:\Users\TTUHEP\Documents\LabVIEW\Other Models\2010\Commands\ExecuteCommand.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Create_Taski.png" ALT="DAQmx Create Task.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Create Task.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\create\task.llb\DAQmx Create Task.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Readi.png" ALT="DAQmx Read.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Read.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\read.llb\DAQmx Read.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Read_(Digital_1D_Bool_NChan_1Samp_1Line)i.png" ALT="DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\read.llb\DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AbortSinglei.png" ALT="AbortSingle.vi"></P>
+</TD>
+<TD>
+<B><P>AbortSingle.vi</P>
+</B><P>C:\Users\TTUHEP\Documents\LabVIEW\Other Models\2010\Motion\AbortSingle.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Writei.png" ALT="DAQmx Write.vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Write.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\write.llb\DAQmx Write.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="DAQmx_Write_(Digital_1D_Bool_NChan_1Samp_1Line)i.png" ALT="DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi"></P>
+</TD>
+<TD>
+<B><P>DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\DAQmx\write.llb\DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Aborti.png" ALT="Abort.vi"></P>
+</TD>
+<TD>
+<B><P>Abort.vi</P>
+</B><P>C:\Users\TTUHEP\Documents\LabVIEW\Other Models\2010\Motion\Abort.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;PickPlace.vi History&quot;</P>
+<P>Current Revision:   34</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="PickPlaceh.png" ALT="PickPlace.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>
