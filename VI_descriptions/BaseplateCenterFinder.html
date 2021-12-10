@@ -1,0 +1,251 @@
+<HTML>
+<HEAD>
+<TITLE>BaseplateCenterFinder.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="BaseplateCenterFinder.vi"></A><H2>BaseplateCenterFinder.vi</H2>
+<P></P>
+<P><IMG SRC="BaseplateCenterFinderc.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderp.png" ALT="BaseplateCenterFinder.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>BaseplateCorners</B> <P>Specify the text file containing coordinates for the 6 Cu cutouts.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>AdjustCamera</B> <P>Move the gantry to see the fidicuials in steps. Applicable only for &quot;ClickMove&quot;.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+Y</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-Z</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Done</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+Z</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-Y</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-X</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+X</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>MoveXYBy(mm)</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>MoveZBy(mm)</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>VisibilityInCamera</B> <P>Used to specify how good the fiducials can be seen under camera.</P>
+<P>AllVisible: No need for any adjustments and camera can see the fiducials clearly.</P>
+<P>JosyStick: Use joystick to adjust and see fiducials. For each point you can move the gantry using joystick. When you are done with moveing for each point, click on &quot;StopJoyStick&quot;. Cancelling in joystick in not needed.</P>
+<P>ClickToMove: Use &quot;AdjustCamera&quot; panel to adjust and see fiducials.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>StopJoyStick</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>Image</B> <P>Shows the pic taken by camera.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>TempCoordinates</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P><B>error out</B> contains error information. If <B>error in</B> indicates that an error occurred before this VI or function ran, <B>error out</B> contains the same error information. Otherwise, it describes the error status that this VI or function produces. Right-click the <B>error out</B> indicator on the front panel and select <B>Explain Error</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code. If <B>status</B> is TRUE, <B>code</B> is a nonzero error code. If <B>status</B> is FALSE, <B>code</B> is 0 or a warning code.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> describes the origin of the error or warning and is, in most cases, the name of the VI or function that produced the error or warning. The default is an empty string.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Output XYZU</B> <P>Center (X,Y) and orirntation (U) of baseplate. Z coorodinate is avg of 6 input coordinates. O/p format is X Y Z U.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>CameraGcode</B> <P>At the end this gives you the gcode that you can use if you want to move the gantry to the center of baseplate and camera see teh center.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>UsedCoordinates</B> <P>Prints the coordinates used if &quot;ClickMove&quot; or &quot;JoyStick&quot; option is selected.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>UsedCoordinates 2</B> </TD>
+</TR>
+</Table>
+<P><IMG SRC="BaseplateCenterFinderd.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd1.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd2.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd3.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd4.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd5.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd6.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd7.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd8.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd9.png" ALT="BaseplateCenterFinder.vi"></P>
+<P><IMG SRC="BaseplateCenterFinderd10.png" ALT="BaseplateCenterFinder.vi"></P>
+<Table>
+</Table>
+</BODY>
+</HTML>

@@ -1,0 +1,162 @@
+<HTML>
+<HEAD>
+<TITLE>VacuumSwitchTest.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="VacuumSwitchTest.vi"></A><H2>VacuumSwitchTest.vi</H2>
+<P></P>
+<P><IMG SRC="VacuumSwitchTestc.png" ALT="VacuumSwitchTest.vi"></P>
+<P><IMG SRC="VacuumSwitchTestp.png" ALT="VacuumSwitchTest.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cu32.png" ALT="cu32"></P>
+</TD>
+<TD>
+<B>DecimalIn[DecimalIn]</B> <P>a. Enter a value for “DecimalIn”. When you run the program, this number is converted to 30 bit binary and those bit combinations are used to control vacuum switches.</P>
+<P></P>
+<P>b. If the vacuum switches are working and no leak, you should get DecimalIn = DecimalExpected</P>
+<P></P>
+<P>c. &quot;Switch status&quot; shows the status of vacuums and gantry microswitch.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>ControlType[ControlType]</B> <P>ControlType:</P>
+<P>1. DecimalSwitch:</P>
+<P>Uses the i/p number from &quot;DecimalIn&quot; and controls the vacuum switches by converting decimal to 30 bit binary. Ignores Binary switches. </P>
+<P>2. BinarySwitch:</P>
+<P>Based on the switches shown in FP, vacuum switches are turned on/off. Ignores DecimalIn.</P>
+<P>3. Conversion:</P>
+<P>Reads the status of vacuum switches and shows them in &quot;Switch status&quot;. Ignores DecimalIn and binary inputs. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>Error In[Error In]</B> <P></P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dbool.png" ALT="i1dbool"></P>
+</TD>
+<TD>
+<B>Switch status[data]</B> <P><B>data</B> returns a 1D array of Boolean data (Vacuum and gantry switch status) from the task. Each element of the array corresponds to a switch.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Boolean</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>DecimalOut[DecimalOut]</B> <P>Decimal corresponding to 32 swith on/off combination.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out[error out]</B> <P></P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+<P></P>
+<P>Right-click the <B>error out</B> indicator on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code.</P>
+<P></P>
+<P>Right-click the <B>error out</B> indicator on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>Right-click the <B>error out</B> indicator on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<P><IMG SRC="VacuumSwitchTestd.png" ALT="VacuumSwitchTest.vi"></P>
+</BODY>
+</HTML>
