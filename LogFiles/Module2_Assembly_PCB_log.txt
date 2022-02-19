@@ -1,0 +1,17 @@
+StartDateTime: Tuesday, November 9, 2021, 7:31:57 PM
+Operator: Vinay
+ModuleName: LiveModule2
+AssemblyType: PCB
+Temperature: 70.5
+Humidity: 35
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_10-28-2021_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_version2.ngc
+Pressure: 15.000000,14.000000,10.000000,0.000000
+SyringePosition: 334.278000	1082.146000	76.446000	0.000000
+
+SyringeToPlateGap: 330
+AssemblyPosition: 198.925591	1072.998364	0.000000	-0.014390
+ComponentPosition: 1123.774727	1078.557561	0.000000	90.014800
+PUTPosition: 198.667176	603.954989	0.000000	90.000000
+-------------------------------------
+Comments: Amount of glue = 6.5mm, amazon 4 cartidge, 4 points near semicirlce algorithm to get PCB center.
+EndDateTime: Tuesday, November 9, 2021, 7:40:47 PM

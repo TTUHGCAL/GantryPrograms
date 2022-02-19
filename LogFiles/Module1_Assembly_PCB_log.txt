@@ -1,0 +1,17 @@
+StartDateTime: Wednesday, November 3, 2021, 4:01:06 PM
+Operator: Vinay
+ModuleName: LiveModule1
+AssemblyType: PCB
+Temperature: 71.0
+Humidity: 33
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_10-28-2021_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_version2.ngc
+Pressure: 15.000000,14.000000,8.000000,0.000000
+SyringePosition: 334.356000	1082.175000	77.291000	0.000000
+
+SyringeToPlateGap: 330
+AssemblyPosition: 198.972242	1073.191578	0.000000	-0.069300
+ComponentPosition: 1123.635589	1078.685828	0.000000	90.090790
+PUTPosition: 198.667176	603.954989	0.000000	90.000000
+-------------------------------------
+Comments: Start glue temperature is 71 and end temperature is 67.8. Length of glue in syringe is 6.0 mm. Glue cartridge is amazon3. Tempearature on particle counter is 71.5. No adjustement of hexaboard. 4 mousebite areas are used to get the center. CircleAI to get the center of sensor-baseplate assembly. PCB name is E107.
+EndDateTime: Wednesday, November 3, 2021, 4:10:49 PM
