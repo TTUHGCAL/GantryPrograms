@@ -34,7 +34,7 @@ def plotter(inFileName, outFileName):
     
     plt.plot(x1,y1, label='Height', marker=".", color='red',linestyle = 'None')
     plt.xlabel('Position')
-    plt.ylabel(r'Variation wrt point 0 ($\mu$m), Z=%f' %round(refPoint,2))
+    plt.ylabel(r'Variation wrt point 0 ($\mu$m), Z=%f' %round(refPoint,3))
     plt.grid()
     
     # ax.set_ylim(0,10)
