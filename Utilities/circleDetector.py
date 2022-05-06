@@ -2,7 +2,7 @@ import sys
 import cv2 as cv
 import numpy as np
 
-def circleDetectorPCB(filename):
+def circleDetectorPCB(filename, outFileName):
     # Loads an image
     src = cv.imread(cv.samples.findFile(filename), cv.IMREAD_COLOR)
 
@@ -59,8 +59,8 @@ def circleDetectorPCB(filename):
     ## [display]
     # cv.imshow("detected circles", src)
     # cv.waitKey(0)
-    cv.imwrite("detectedCircles.png", src)
+    cv.imwrite(outFileName, src)
     ## [display]
     return centRadius
 
-circleDetectorPCB('C:\\Users\\TTUHEP\\Pictures\\imageCam.png')
+circleDetectorPCB('C:\\Users\\TTUHEP\\Pictures\\imageCam.png', 'C:\\Users\\TTUHEP\\Documents\\LabVIEW\\GantryPrograms\\Utilities\\detectedCircles.png')

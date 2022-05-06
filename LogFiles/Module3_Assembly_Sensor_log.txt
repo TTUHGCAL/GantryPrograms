@@ -1,0 +1,29 @@
+StartDateTime: Tuesday, April 5, 2022, 3:00:0 PM
+Operator: Vinay
+ModuleName1: Module3
+ModuleName2: 
+SensorType: 325um
+SensorID: 4791-22-100109
+BasePlateVersion: V4
+PCBVersion: ROCv3
+NameOnPCB: E126
+GlueCartridge: 4-5-2022
+Temperature(F): 69.2
+RelHumidity(%): 21
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\Final_Patern\PCB_base_10-25-2021_3layers_Combined_Final.ngc
+GluePressure: 30.000000,30.000000,18.000000,0.000000
+Syringe_XYZU: 386.396800,1126.125000,87.335400,0.000000
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 874.499573,1123.640015,75.251250,-0.683200
+Assembly_XYZU: 248.979813,1116.546387,70.230000,0.042900
+GlueAmount: 1.7grams
+-------------
+Comments:No 2 circle fiducials on Si. Used edges.
+Corner right top Si: 850.7823987	914.8207436	75.2848326
+Corner right top Si after placing: 226.4884020	907.8051208	68.8347575
+Corner right top Si after curing: 226.4933982	907.7901196	68.7547575
+EndDateTime: Tuesday, April 5, 2022, 3:11:24 PM

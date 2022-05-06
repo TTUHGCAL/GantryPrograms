@@ -1,0 +1,27 @@
+StartDateTime: Friday, April 15, 2022, 4:00:33 PM
+Operator: Vinay
+ModuleName1: Module5
+ModuleName2: 
+SensorType: 325
+SensorID: 4791_18-100105
+BasePlateVersion: V3_BP11
+PCBVersion: ROCV3A
+NameOnPCB: H6
+GlueCartridge: 04-14-2022
+Temperature(F): 69.3
+RelHumidity(%): 20
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines_slowspeed_Z7mm_edgesmodified2.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.261800,1126.062000,86.701000,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1174.076050,1122.728638,64.766510,-0.235700
+Assembly_XYZU: 248.772751,1116.539673,69.534335,0.054700
+GlueAmount: 1.0g, 6.5mm
+-------------
+Comments:New PUT for HB. Laser hole for HB calibration with X=6.964, Y=24.138 offsets. Mistake in HB center. Instead of X=1173.7972192, Y=1122.6716458, U=-0.3090768, used X=1174.076050, Y=1122.728638, U=-0.2357.
+
+EndDateTime: Friday, April 15, 2022, 4:12:13 PM
