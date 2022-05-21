@@ -1,0 +1,27 @@
+StartDateTime: Wednesday, April 13, 2022, 3:12:31 PM
+Operator: Vinay
+ModuleName1: Module4
+ModuleName2: 
+SensorType: 325
+SensorID: 4791_19_100106
+BasePlateVersion: V4_12
+PCBVersion: V2_ROCv3
+NameOnPCB: E125
+GlueCartridge: 04-05-2022
+Temperature(F): 70.8
+RelHumidity(%): 13
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines_slowspeed_Z7mm_edgesmodified.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.417300,1126.104000,86.895200,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1174.072026,1122.746620,64.767700,-0.113035
+Assembly_XYZU: 249.000290,1116.525146,69.873334,-0.117600
+GlueAmount: 6mm, 0.8g
+-------------
+Comments:Used BPSi for calibration instead of Si. Used laser holes 113 and 37 for HB calibration. (X,Y) offset w.r.t HB center is (6.964, 24.138). Edges of HB were bad (not straight and sharp.)
+
+EndDateTime: Wednesday, April 13, 2022, 3:26:31 PM

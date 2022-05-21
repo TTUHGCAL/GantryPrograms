@@ -1,0 +1,253 @@
+<HTML>
+<HEAD>
+<TITLE>SiRealCenterFinder.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="SiRealCenterFinder.vi"></A><H2>SiRealCenterFinder.vi</H2>
+<P></P>
+<P><IMG SRC="SiRealCenterFinderc.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderp.png" ALT="SiRealCenterFinder.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>BasePlateEdges</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Component</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>SiFiducials</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>HexaboardEdges</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>SiOnBPFiducials</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>StopJoyStick</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>AdjustCamera</B> <P>Move the gantry to see the fidicuials in steps. Applicable only for &quot;ClickMove&quot;.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+Y</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-Z</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Done</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+Z</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-Y</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>-X</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>+X</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>MoveXYBy(mm)</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>MoveZBy(mm)</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>VisibilityInCamera</B> <P>Used to specify how good the fiducials can be seen under camera.</P>
+<P>AllVisible: No need for any adjustments and camera can see the fiducials clearly.</P>
+<P>JosyStick: Use joystick to adjust and see fiducials. For each point you can move the gantry using joystick. When you are done with moveing for each point, click on &quot;StopJoyStick&quot;. Cancelling in joystick in not needed.</P>
+<P>ClickToMove: Use &quot;AdjustCamera&quot; panel to adjust and see fiducials.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Output XYZU</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>Image1</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>Image2</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>ImageCurrent</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Dev</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>CameraGcode</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>UsedCoordinates</B> <P>Prints the coordinates used if &quot;ClickMove&quot; or &quot;JoyStick&quot; option is selected.</P>
+</TD>
+</TR>
+</Table>
+<P><IMG SRC="SiRealCenterFinderd.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd1.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd2.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd3.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd4.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd5.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd6.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd7.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd8.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd9.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd10.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd11.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd12.png" ALT="SiRealCenterFinder.vi"></P>
+<P><IMG SRC="SiRealCenterFinderd13.png" ALT="SiRealCenterFinder.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>

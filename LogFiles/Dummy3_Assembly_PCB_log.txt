@@ -1,0 +1,15 @@
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.329000,1125.811000,86.961000,0.000000
+AssemblyType: PCB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1173.982544,1122.314331,64.972260,0.270900
+Assembly_XYZU: 248.788877,1116.508381,68.897500,-0.157000
+GlueAmount: 6
+-------------
+Comments:PCB alignment was done using sides. BP alignment procedure.
+
+EndDateTime: Friday, March 25, 2022, 6:54:38 PM
