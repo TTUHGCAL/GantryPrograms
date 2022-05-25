@@ -1,3 +1,0 @@
--901 : IsInSafeLimitsXYZ.vi : Either X,Y or Z is not within set limits for safe operation.
--939 : In syringe calibration for Z : The difference b/w Vmid and scan for Vmid is too large. Zfinal may not be correct.
--940 : In syringe calibration for Z : Photodetector volatge is not with 1.2-1.3 V. Check if the power is connected to photodetector.
