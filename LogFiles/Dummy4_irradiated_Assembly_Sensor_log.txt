@@ -1,0 +1,27 @@
+StartDateTime: Tuesday, May 31, 2022, 11:16:16 AM
+Operator: Sonaina
+ModuleName1: Dummy4_irradiated
+ModuleName2: 
+SensorType: Irradiated_315um
+SensorID: 100077
+BasePlateVersion: V6_5
+PCBVersion: V2_ROCV3A
+NameOnPCB: H5
+GlueCartridge: 04-14-2022
+Temperature(F): 68.7
+RelHumidity(%): 64
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\Final_Patern\PCB_base_10-25-2021_3layers_Combined_Final.ngc
+GluePressure: 30.000000,30.000000,18.000000,0.000000
+Syringe_XYZU: 386.335000,1125.936000,87.912413,0.000000
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 874.571885,1123.562424,75.227292,-0.692300
+Assembly_XYZU: 248.918015,1116.356567,69.239416,-0.022000
+GlueAmount: 17
+-------------
+Comments:Amt of glue = 2.3g. Used mercedes symbols of sensor for calibration, automatic centerfinder for baseplate.
+
+EndDateTime: Tuesday, May 31, 2022, 11:24:56 AM
