@@ -2,5 +2,6 @@
 -902 : CenterFinder : While trying to do automatic center finder, pattern recognition template file is not found. It could be that the file name and key in the josn file do not match.
 -903 : PatternRecognition.vi : Could not find matching pattern.
 -904 : MultiModule assembly : Syringe X/Y/Z range is not within specified limit. Check text file <Zone><Position>_Syringe<Axis>.txt or syringe.
+-905 : Multimodule assembly : Trying to find syringe X/Y. But could not find correct offsets b/w BP position and syringe position. Check "C:\Users\TTUHEP\Documents\LabVIEW\GantryPrograms\Configs\OffsetsConstants.json"
 -939 : In syringe calibration for Z : The difference b/w Vmid and scan for Vmid is too large. Zfinal may not be correct.
 -940 : In syringe calibration for Z : Photodetector volatge is not with 1.2-1.3 V. Check if the power is connected to photodetector.
