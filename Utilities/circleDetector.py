@@ -28,7 +28,7 @@ def circleDetectorPCB(filename, outFileName):
     
     circles = cv.HoughCircles(gray, cv.HOUGH_GRADIENT, 4, rows ,
                               param1=100, param2=30,
-                              minRadius=500, maxRadius=900) # PCB new cam
+                              minRadius=725, maxRadius=750) # PCB new cam
     # circles = cv.HoughCircles(gray, cv.HOUGH_GRADIENT, 1, 800 ,
     #                           param1=100, param2=60,
     #                           minRadius=30, maxRadius=70) # Si old cam
