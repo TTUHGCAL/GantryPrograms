@@ -1,0 +1,27 @@
+StartDateTime: Monday, July 25, 2022, 5:50:29 PM
+Operator: Vinay
+ModuleName1: Module7
+ModuleName2: 
+SensorType: Irradiated_300um
+SensorID: 100094
+BasePlateVersion: V6
+PCBVersion: V2_ROCV3A
+NameOnPCB: P135
+GlueCartridge: 07-25-2022
+Temperature(F): 70.3
+RelHumidity(%): 52
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines_slowspeed_Z7mm_edgesmodified2.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.363060,1125.803854,87.014862,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1173.995728,1122.630981,64.717670,-0.176700
+Assembly_XYZU: 248.946060,1116.224854,69.229003,-0.015200
+GlueAmount: 7.5
+-------------
+Comments:0.9g glue. Used edges of HB manually for alignment.
+
+EndDateTime: Monday, July 25, 2022, 6:01:54 PM
