@@ -1,0 +1,27 @@
+StartDateTime: Wednesday, June 8, 2022, 9:36:51 AM
+Operator: Gabriela
+ModuleName1: Module6
+ModuleName2: 
+SensorType: Irriadiated
+SensorID: 100083
+BasePlateVersion: V6_6
+PCBVersion: V2HB_ROCV3A
+NameOnPCB: P133
+GlueCartridge: 04-14-2022
+Temperature(F): 75.8
+RelHumidity(%): 64
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\Final_Patern\PCB_base_10-25-2021_3layers_Combined_Final.ngc
+GluePressure: 25.000000,25.000000,16.000000,0.000000
+Syringe_XYZU: 386.315987,1125.867696,87.538687,0.000000
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 874.483830,1123.563783,75.153335,-0.661500
+Assembly_XYZU: 248.898987,1116.288696,69.145666,-0.050300
+GlueAmount: 0mm, 1.8g
+-------------
+Comments:Temperature and RH were high. Used lower pressure for glue dispensing.
+
+EndDateTime: Wednesday, June 8, 2022, 9:48:26 AM

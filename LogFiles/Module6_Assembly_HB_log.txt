@@ -1,0 +1,27 @@
+StartDateTime: Wednesday, June 8, 2022, 5:33:44 PM
+Operator: Vinay
+ModuleName1: Module6
+ModuleName2: 
+SensorType: Irradiated 300um
+SensorID: 100083
+BasePlateVersion: V6_6
+PCBVersion: HBV2_ROCV3A
+NameOnPCB: P133
+GlueCartridge: 04-05-2022
+Temperature(F): 71.1
+RelHumidity(%): 54
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines_slowspeed_Z7mm_edgesmodified2.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.316231,1125.849386,86.584887,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1174.104161,1122.594976,64.767700,-0.071568
+Assembly_XYZU: 248.899231,1116.270386,69.116502,-0.052400
+GlueAmount: 6mm, 0.7g
+-------------
+Comments:Likely shift of BP with Si by 100um. X laserhole offset for HB calibration = 6.964, Y = 24.114.
+
+EndDateTime: Wednesday, June 8, 2022, 5:47:15 PM

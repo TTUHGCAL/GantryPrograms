@@ -3,6 +3,8 @@
 	"CamtoGHY": 117.072,
 	"SyringetoGHX": 137.417,
 	"SyringetoGHY": 9.579,
+	"GHtoSyringeX": 137.417,
+	"GHtoSyringeY": 9.579,
 	"NPixelsX": 2448,
 	"NPixelsY": 2048,
 	"MicronsPerPixel": 0.6823

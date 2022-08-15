@@ -1,0 +1,27 @@
+StartDateTime: Tuesday, May 31, 2022, 6:49:38 PM
+Operator: Vinay
+ModuleName1: Dummy4_irradiated
+ModuleName2: 
+SensorType: Irradiated_315um
+SensorID: 100077
+BasePlateVersion: V6_5
+PCBVersion: V2_ROCV3A
+NameOnPCB: H5
+GlueCartridge: 04-14-2022
+Temperature(F): 69.4
+RelHumidity(%): 60
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\NSH_03-25-2022_rotated1_Minus120degrees_edgesModified_circlesFirst_Combined_changedInnerLines_slowspeed_Z7mm_edgesmodified2.ngc
+GluePressure: 15.000000,14.000000,10.000000,0.000000
+Syringe_XYZU: 386.335000,1125.936000,86.684896,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+SiPCB_XYZU: 1173.935656,1122.514523,64.767700,-0.222307
+Assembly_XYZU: 248.921280,1116.347046,69.254000,-0.022600
+GlueAmount: 75
+-------------
+Comments:Glue amount = 0.8-0.9g. Used automatic center finder for BP. Alignment done using BP. For  HB, offsets from laser hole are 6.964, 24.138. XYU of Si on BP = 248.982, 1116.334, -0.0166.
+
+EndDateTime: Tuesday, May 31, 2022, 7:03:45 PM
