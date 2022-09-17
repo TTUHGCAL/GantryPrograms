@@ -119,4 +119,48 @@ def circleDetectorSi(filename, outFileName):
     ## [display]
     return centRadius
 
+def circleDetectorSyringe(filename, outFileName):
+    # Loads an image
+    src = cv.imread(cv.samples.findFile(filename), cv.IMREAD_COLOR)
+
+    # Check if image is loaded fine
+    if src is None:
+        print ('Error opening image!')
+        print ('Usage: hough_circle.py [image_name -- default ' + default_file + '] \n')
+        return -1
+    # Convert it to gray
+    gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
+    ## [reduce_noise]
+    gray = cv.medianBlur(gray, 5)
+    ## [houghcircles]
+    rows = gray.shape[0]
+    
+    circles = cv.HoughCircles(gray, cv.HOUGH_GRADIENT, 2, rows ,
+                              param1=200, param2=80,
+                              minRadius=800, maxRadius=1200) # Syringe
+
+    ## [houghcircles]
+
+    ## [draw]
+    centRadius = []
+    if circles is not None:
+        circles = np.uint16(np.around(circles))
+        for i in circles[0, :]:
+            center = (i[0], i[1])
+            # circle center
+            cv.circle(src, center, 1, (0, 100, 100), 3)
+            # circle outline
+            radius = i[2]
+            cv.circle(src, center, radius, (0, 0, 255), 3)
+            print(i[0],i[1],i[2])
+            centRadius = i
+    ## [draw]
+
+    ## [display]
+    # cv.imshow("detected circles", src)
+    # cv.waitKey(0)
+    cv.imwrite(outFileName, src)
+    ## [display]
+    return centRadius
+
 #circleDetectorPCB('C:\\Users\\TTUHEP\\Pictures\\imageCam.png', 'C:\\Users\\TTUHEP\\Documents\\LabVIEW\\GantryPrograms\\Utilities\\detectedCircles.png')
