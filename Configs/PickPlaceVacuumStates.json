@@ -2,7 +2,9 @@
 	"PickTool": 43,
 	"PickPlate": 59,
 	"ReleasePlate": 51,
-	"Orig_ReleasePlate": 51,
 	"HoldPUT": 55,
-	"DropTool": 7
+	"DropTool": 7,
+	"Orig_ReleasePlate": 51,
+	"Orig_HoldPUT": 55,
+	"Orig_DropTool": 7
 }
