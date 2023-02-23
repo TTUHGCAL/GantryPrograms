@@ -1,0 +1,30 @@
+StartDateTime: Wednesday, December 7, 2022, 1:01:36 PM
+Operator: Sonaina
+ModuleName1: Dummy5
+ModuleName2: 
+SensorType: Bad live
+SensorID: 1008
+BasePlateVersion: V6
+PCBVersion: LD_V3_D_014
+NameOnPCB: 
+GlueCartridge: 
+Temperature(F): 
+RelHumidity(%): 
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\Final_Patern\SH_V3_try13_CirclesANDLinesANDEdge_3LAYERS_F48_ROTATED_11-22-2022_EdgesModified_InnerLinesModified_CirclesModified_notchesfixed_Z7mm_Stage1.ngc
+GluePressure: 18.766000,39.238000,18.766000,0.000000
+Syringe_XYZU: 387.216057,1125.857320,87.704289,0.000000
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.901410,222.756390,0.000000,90.000000
+SiPCB_XYZU: 1176.086670,1121.807251,63.983580,0.102400
+Assembly_XYZU: 249.799057,1116.278320,68.175498,0.027200
+GlueAmount: 1.192
+-------------
+Comments:base pressure 11,23,11
+PCB: LD_V3_D_014
+BP-V6
+Si -old Live 1008
+
+EndDateTime: Wednesday, December 7, 2022, 1:12:00 PM

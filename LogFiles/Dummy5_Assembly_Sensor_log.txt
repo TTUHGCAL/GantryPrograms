@@ -1,0 +1,28 @@
+StartDateTime: Tuesday, December 6, 2022, 1:18:00 PM
+Operator: Sonaina
+ModuleName1: 
+ModuleName2: Dummy5
+SensorType: Irradiated_Dead
+SensorID: 
+BasePlateVersion: V6
+PCBVersion: V3
+NameOnPCB: 14
+GlueCartridge: 
+Temperature(F): 
+RelHumidity(%): 
+GluePattern: C:\Users\TTUHEP\Documents\LabVIEW\Data\Patterns\Final_Patern\PCB_base_10-03-2022_2layers_1hexRestHorizontalwithCenterLine_ExtendedLines_SnakePattern_24F_ZsameAsLines_Combined.ngc
+GluePressure: 43.230000,30.261000,0.000000,0.000000
+Syringe_XYZU: 437.798165,935.618001,87.970279,0.000000
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 2
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 300.815634,45.081903,0.000000,90.000000
+SiPCB_XYZU: 875.055359,920.082825,74.899332,-0.099500
+Assembly_XYZU: 300.381165,926.039001,68.640917,0.061100
+GlueAmount: 2.353 g
+-------------
+Comments: Base pressure 30, 21,0,0
+glue amount is ~6% less (should be 2.484 g)
+
+EndDateTime: Tuesday, December 6, 2022, 1:24:06 PM
