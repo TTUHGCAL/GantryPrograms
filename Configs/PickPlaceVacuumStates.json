@@ -1,8 +1,14 @@
 {
-	"PickTool": 43,
-	"PickPlate": 59,
-	"ReleasePlate": 51,
-	"Orig_ReleasePlate": 51,
-	"HoldPUT": 55,
-	"DropTool": 7
+	"PickTool": 39,
+	"PickHB": 55,
+	"ReleaseHB": 51,
+	"PickSi": 51,
+	"ReleaseSi": 49,
+	"HoldPUT": 57,
+	"DropTool": 9,
+	"PickTool_glue": 43,
+	"PickPlate_glue": 59,
+	"ReleasePlate_glue": 51,
+	"HoldPUT_glue": 55,
+	"DropTool_glue": 7
 }
