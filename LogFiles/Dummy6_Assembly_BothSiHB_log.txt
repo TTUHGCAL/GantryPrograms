@@ -1,0 +1,25 @@
+StartDateTime: Friday, March 10, 2023, 11:55:18 AM
+Operator: Gabriela
+ModuleName1: Dummy6
+ModuleName2: 
+SensorType: Au_plated
+SensorID: 0
+BasePlateVersion: V5
+PCBVersion: V3_SH_noComponents
+NameOnPCB: LD_V3_D017
+GlueCartridge: 
+Temperature(F): 
+RelHumidity(%): 
+AssemblyType: BothSiHB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+HB_XYZU: 1175.878052,1121.534790,63.942777,0.032000
+Si_XYZU: 875.246277,1123.505737,75.005780,-1.051200
+Assembly_XYZU: 249.983353,1116.383179,68.690914,-0.045700
+
+-------------
+Comments:First tape assembly
+
+EndDateTime: Friday, March 10, 2023, 11:59:47 AM

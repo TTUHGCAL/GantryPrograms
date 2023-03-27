@@ -1,13 +1,26 @@
-75.637368
-75.618619
-75.649885
-75.640488
-75.637362
-75.693611
-75.696742
-75.690486
-75.681118
-75.687362
-75.677999
-75.696762
-75.693616
+StartDateTime: Friday, March 10, 2023, 10:14:33 AM
+Operator: Sonaina
+ModuleName1: T1
+ModuleName2: 
+SensorType: 
+SensorID: 
+BasePlateVersion: 
+PCBVersion: 
+NameOnPCB: 
+GlueCartridge: 
+Temperature(F): 
+RelHumidity(%): 
+
+
+
+
+PUT_XYZU: 248.885557,222.081622,0.000000,90.000000
+HB_XYZU: 1175.781372,1121.590210,64.490296,0.099000
+Si_XYZU: 875.573914,1123.487305,73.744688,-0.668900
+Assembly_XYZU: 250.033203,1116.191772,68.735757,-0.039900
+AfterAssembly Pic XYZU: 219.7286360	999.0900014	66.9947152
+
+-------------
+Comments:
+
+EndDateTime: Friday, March 10, 2023, 10:17:35 AM
