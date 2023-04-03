@@ -1,0 +1,25 @@
+ StartDateTime: Monday, April 3, 2023, 1:23:55 PM
+Operator: Gabriela
+ModuleName1: Dummy7
+ModuleName2: 
+SensorType: Aluminum 
+SensorID: 
+BasePlateVersion: V5
+PCBVersion: LDV3_13
+NameOnPCB: 
+GlueCartridge: 
+Temperature(F): 73
+RelHumidity(%): 12
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: Si_XYZU: 875.311829,1123.532227,74.983166,-1.026700
+Assembly_XYZU: 250.014114,1116.323853,68.722000,-0.022400
+
+-------------
+Comments:
+Si XYZU after assembly: 250.018570	1116.312622	68.175667	-0.0041
+
+EndDateTime: Monday, April 3, 2023, 1:25:57 PM
