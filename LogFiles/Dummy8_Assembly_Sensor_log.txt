@@ -1,0 +1,26 @@
+StartDateTime: Monday, May 15, 2023, 11:57:49 AM
+Operator: Vinay
+ModuleName1: Dummy8
+ModuleName2: 
+SensorType: Al_300um
+SensorID: 
+BasePlateVersion: V5_11
+PCBVersion: LD_V3
+NameOnPCB: D_016
+GlueCartridge: Tape
+Temperature(F): 69.6
+RelHumidity(%): 38
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: Si_XYZU: 875.391541,1123.517944,75.072748,-1.163000
+Assembly_XYZU: 249.992020,1116.278076,68.722000,-0.054500
+
+-------------
+Comments:
+PostAssembly_Si_XYZU: 250.000595	1116.245483	68.219415	-0.0219
+PostAssembly_BP_XYZU: 249.986771	1116.274292	68.763665	-0.0547
+
+EndDateTime: Monday, May 15, 2023, 12:00:00 PM
