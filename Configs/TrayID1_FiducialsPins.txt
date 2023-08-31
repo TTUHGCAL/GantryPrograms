@@ -1,0 +1,3 @@
+-24.61566	95.23311	-12.18017	-63.4682
+26.17422	-95.28703	-12.16094	-63.4680
+#Shifts from mid of fiducials. Z is the height measurement from OGP. Angle is (PinSlotLine - FidLine)
