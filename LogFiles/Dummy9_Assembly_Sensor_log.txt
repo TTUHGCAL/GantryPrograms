@@ -1,0 +1,24 @@
+StartDateTime: Monday, September 25, 2023, 1:05:18 PM
+Operator: Vinay
+ModuleName1: Dummy9
+ModuleName2: 
+SensorType: Al_Dummy
+SensorID: 0
+BasePlateVersion: PCB_LO_07_MPK_4B
+PCBVersion: LD_V3_015
+NameOnPCB: 
+GlueCartridge: 
+Temperature(F): 
+RelHumidity(%): 
+AssemblyType: Sensor
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: Si_XYZU: 875.294128,1123.514648,75.043591,-1.050400
+Assembly_XYZU: 250.209473,1116.266602,68.749082,-0.170400
+
+-------------
+Comments:Center finder using edges for BP and AlDummy. Tape from CMU.
+
+EndDateTime: Monday, September 25, 2023, 1:07:44 PM
