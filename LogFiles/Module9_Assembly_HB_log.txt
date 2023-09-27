@@ -1,0 +1,24 @@
+StartDateTime: Tuesday, September 26, 2023, 1:00:09 PM
+Operator: Vinay
+ModuleName1: MOdule8
+ModuleName2: Module9
+SensorType: 300um
+SensorID: 100128, 1001151
+BasePlateVersion: PCB_LO_07_MPK_4B (V7)
+PCBVersion: LD_V3
+NameOnPCB: XLFL_00013, XLFL_00014
+GlueCartridge: 
+Temperature(F): 69.8
+RelHumidity(%): 48
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 2
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 300.584308,44.859940,0.000000,90.000000
+HB_XYZU: 1174.998793,918.971793,63.964099,0.094300
+Si_XYZU: Assembly_XYZU: 300.338226,925.757263,68.738998,-0.171300
+
+-------------
+Comments:
+
+EndDateTime: Tuesday, September 26, 2023, 1:07:50 PM

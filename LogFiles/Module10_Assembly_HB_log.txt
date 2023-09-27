@@ -1,0 +1,24 @@
+StartDateTime: Wednesday, September 27, 2023, 2:00:01 PM
+Operator: Gabriela
+ModuleName1: Module10
+ModuleName2: 
+SensorType: 300um
+SensorID: 100148
+BasePlateVersion: PCB_LO_07_MPK_4B(v7)
+PCBVersion: LD_V3
+NameOnPCB: XLFL00021
+GlueCartridge: 
+Temperature(F): 66.9
+RelHumidity(%): 29
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: 1175.503418,1122.574097,63.903285,-0.035200
+Si_XYZU: Assembly_XYZU: 250.232156,1116.201782,68.774082,-0.154600
+
+-------------
+Comments:Added -0.025mm offset in X for baseplate
+
+EndDateTime: Wednesday, September 27, 2023, 2:04:45 PM
