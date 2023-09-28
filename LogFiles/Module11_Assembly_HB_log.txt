@@ -1,0 +1,24 @@
+StartDateTime: Thursday, September 28, 2023, 1:21:53 PM
+Operator: Gabriela
+ModuleName1: Module11
+ModuleName2: 
+SensorType: 300um
+SensorID: 100130
+BasePlateVersion: PCB_LO_07_MPK_4B(v7)
+PCBVersion: V3_L3
+NameOnPCB: XLFL00025
+GlueCartridge: 
+Temperature(F): 69.3
+RelHumidity(%): 66
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: 1174.731079,1122.415649,63.952831,-0.166500
+Si_XYZU: Assembly_XYZU: 250.130701,1116.196167,68.767832,-0.161600
+
+-------------
+Comments:
+
+EndDateTime: Thursday, September 28, 2023, 1:26:33 PM
