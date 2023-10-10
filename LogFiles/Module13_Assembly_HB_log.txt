@@ -1,0 +1,24 @@
+StartDateTime: Tuesday, October 10, 2023, 12:46:13 PM
+Operator: Vinay
+ModuleName1: Module13
+ModuleName2: 
+SensorType: 300um
+SensorID: 100132
+BasePlateVersion: PCB_LO_07_MPK_4B (V7)
+PCBVersion: LD_V3
+NameOnPCB: 320-XL-F03-PN-00034
+GlueCartridge: Tape
+Temperature(F): 70.5
+RelHumidity(%): 53
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: 1174.973022,1122.625366,63.996585,-0.124200
+Si_XYZU: Assembly_XYZU: 250.225945,1116.220703,68.734499,-0.157000
+
+-------------
+Comments:-25um in X offset added.
+
+EndDateTime: Tuesday, October 10, 2023, 12:50:51 PM
