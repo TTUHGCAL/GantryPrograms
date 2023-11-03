@@ -1,0 +1,25 @@
+StartDateTime: Friday, November 3, 2023, 4:05:32 PM
+Operator: Vinay
+ModuleName1: Module14
+ModuleName2: 
+SensorType: 300um
+SensorID: 100266
+BasePlateVersion: CF_V1_1
+PCBVersion: LD_V3
+NameOnPCB: 320-XL-F03-PN-00001
+GlueCartridge: 
+Temperature(F): 70.5
+RelHumidity(%): 33
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: 1175.071145,1122.936045,63.026627,-0.195600
+Si_XYZU: Assembly_XYZU: 250.104013,1116.113892,68.730667,-0.109500
+
+-------------
+Comments:Added -0.025mm shift for X of BP. Used Cu edges for BP calibration. Sensor with cell number 21 had a white sticky thread which was cleaned before HB assembly. First hybrid module.
+Glue amount = 0.484g
+
+EndDateTime: Friday, November 3, 2023, 4:10:11 PM

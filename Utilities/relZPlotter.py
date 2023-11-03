@@ -22,8 +22,8 @@ def plotter(inFileName, outFileName):
       # x1.append(float(row[0]))
       # y1.append(float(row[1]))
       x1.append(point1)
-      # y1.append(float(row[2])) #for Z when i/p is XYZ
-      y1.append(float(row[0])) # for height
+      y1.append(float(row[2])) #for Z when i/p is XYZ
+      # y1.append(float(row[0])) # for height
       point1 = point1+1
 
     refPoint = y1[0]
