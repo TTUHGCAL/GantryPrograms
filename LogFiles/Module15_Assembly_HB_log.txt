@@ -1,0 +1,24 @@
+StartDateTime: Wednesday, November 8, 2023, 2:27:57 PM
+Operator: Gabriela
+ModuleName1: Module15
+ModuleName2: Module16
+SensorType: 300um
+SensorID: 100263
+BasePlateVersion: 100262
+PCBVersion: LD_V3
+NameOnPCB: 320-XL-F03-PN-00005, 320-XL-F03-PN-00012
+GlueCartridge: 3/11/2023
+Temperature(F): 68
+RelHumidity(%): 28
+AssemblyType: HB
+Zone: ZoneA
+AssemblyPosition: 1
+ComponentPosTexFileLineNo: 0
+PUT_XYZU: 249.895009,222.538000,0.000000,90.000000
+HB_XYZU: 1174.840116,1123.033210,63.252391,-0.152300
+Si_XYZU: Assembly_XYZU: 250.078348,1116.205078,68.730667,0.015100
+
+-------------
+Comments:Module16 vacuum leak from PUT
+
+EndDateTime: Wednesday, November 8, 2023, 2:35:57 PM
